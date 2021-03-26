@@ -1,7 +1,10 @@
 import React from 'react';
-import { useFonts } from 'expo-font';
-import AuthRoutes from './auth.routes';
 
+import {
+  Archivo_400Regular,
+  Archivo_600SemiBold,
+  Archivo_700Bold,
+} from '@expo-google-fonts/archivo';
 import {
   Nunito_400Regular,
   Nunito_600SemiBold,
@@ -12,11 +15,9 @@ import {
   Poppins_600SemiBold,
   Poppins_700Bold,
 } from '@expo-google-fonts/poppins';
-import {
-  Archivo_400Regular,
-  Archivo_600SemiBold,
-  Archivo_700Bold,
-} from '@expo-google-fonts/archivo';
+import { useFonts } from 'expo-font';
+
+import AuthRoutes from './auth.routes';
 
 const Routes = () => {
   const [fontsLoaded] = useFonts({
