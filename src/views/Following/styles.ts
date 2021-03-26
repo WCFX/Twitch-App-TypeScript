@@ -1,3 +1,6 @@
+import { Platform } from 'react-native';
+
+import Constants from 'expo-constants';
 import styled from 'styled-components/native';
 
 export const Container = styled.View`

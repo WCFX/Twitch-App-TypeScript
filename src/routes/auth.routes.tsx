@@ -1,16 +1,18 @@
 import React from 'react';
 
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { createStackNavigator } from '@react-navigation/stack';
 
 import * as View from '~/views';
 
-const { Navigator, Screen } = createStackNavigator();
+const { Navigator, Screen } = createBottomTabNavigator();
 
 const AuthRoutes = () => {
   return (
-    <Navigator initialRouteName="Home" screenOptions={{ headerShown: false }}>
-      <Screen name="Home" component={View.Home} />
+    <Navigator>
+      <Screen name="Following" component={View.Following} />
+      <Screen name="Browse" component={View.Browse} />
+      <Screen name="Discover" component={View.Discover} />
+      <Screen name="Esports" component={View.Esports} />
     </Navigator>
   );
 };

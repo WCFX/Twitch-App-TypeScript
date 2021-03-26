@@ -1,10 +1,13 @@
 import React from 'react';
-import { View } from 'react-native';
 
-// import { Container } from './styles';
+import * as Style from './styles';
 
 const Following: React.FC = () => {
-  return <View />;
+  return (
+    <Style.Container>
+      <Style.Title>Hello World</Style.Title>
+    </Style.Container>
+  );
 };
 
 export default Following;
