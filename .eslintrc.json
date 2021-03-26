@@ -29,6 +29,7 @@
   ],
   "rules": {
     "prettier/prettier": "error",
+    "import/no-extraneous-dependencies": "off",
     "no-console": "off",
     "camelcase": "off",
     "no-unused-expressions": "off",

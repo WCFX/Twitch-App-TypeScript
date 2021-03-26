@@ -15,6 +15,11 @@ import {
   Poppins_600SemiBold,
   Poppins_700Bold,
 } from '@expo-google-fonts/poppins';
+import {
+  Roboto_400Regular,
+  Roboto_500Medium,
+  Roboto_700Bold,
+} from '@expo-google-fonts/roboto';
 import { useFonts } from 'expo-font';
 
 import AuthRoutes from './auth.routes';
@@ -30,6 +35,9 @@ const Routes = () => {
     Archivo_400Regular,
     Archivo_600SemiBold,
     Archivo_700Bold,
+    Roboto_400Regular,
+    Roboto_500Medium,
+    Roboto_700Bold,
   });
 
   if (!fontsLoaded) {
