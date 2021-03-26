@@ -1,5 +1,5 @@
 import React from 'react';
-import * as Style from './styles';
+import * as Style from './styles'
 
 const Home: React.FC = () => {
   return (
@@ -9,4 +9,4 @@ const Home: React.FC = () => {
   )
 }
 
-export default Home;
+export default Home
